@@ -19,7 +19,7 @@ const Success = ({ setSubmitted, email }: Props) => {
       >
         <Image src={successImage} />
         <Heading
-          as="h2"
+          as="h1"
           textColor="hsl(234, 29%, 20%)"
           fontWeight="bold"
           fontSize="3rem"

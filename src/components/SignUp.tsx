@@ -63,7 +63,7 @@ const SignUp = ({ setSubmitted, setEmail }: Props) => {
         padding={{ base: "15px", md: "30px" }}
       >
         <Heading
-          as="h2"
+          as="h1"
           textColor="hsl(234, 29%, 20%)"
           fontWeight="bold"
           fontSize={{ base: "2xl", md: "3rem" }}
@@ -102,6 +102,7 @@ const SignUp = ({ setSubmitted, setEmail }: Props) => {
               alt="List Icon"
               boxSize={5}
               marginRight={3}
+              role="Psuedo HTML"
             />
             Measuring to ensure updates are a success
           </ListItem>
