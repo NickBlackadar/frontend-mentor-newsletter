@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --dark-slate: 234, 29%, 20%;
+  --charcoal-grey: 235, 18%, 26%;
+  --grey: 231, 7%, 60%;
+  --white: 0, 0%, 100%;
+  --tomato: 4, 100%, 67%;
+}
+
+body {
+  margin: auto;
+  /* background-color: hsl(234, 29%, 20%); */
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh;
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    display: flex;
+    background: hsl(234, 29%, 20%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
