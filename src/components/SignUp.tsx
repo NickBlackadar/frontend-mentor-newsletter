@@ -87,6 +87,7 @@ const SignUp = ({ setSubmitted, setEmail }: Props) => {
               alt="List Icon"
               boxSize={5}
               marginRight={3}
+              role="img"
             />
             Product discovery and building what matters
           </ListItem>
@@ -102,7 +103,7 @@ const SignUp = ({ setSubmitted, setEmail }: Props) => {
               alt="List Icon"
               boxSize={5}
               marginRight={3}
-              role="Psuedo HTML"
+              role="img"
             />
             Measuring to ensure updates are a success
           </ListItem>
@@ -117,6 +118,7 @@ const SignUp = ({ setSubmitted, setEmail }: Props) => {
               alt="List Icon"
               boxSize={5}
               marginRight={3}
+              role="img"
             />
             And much more!
           </ListItem>
